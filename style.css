@@ -1,14 +1,14 @@
 .container {
     text-align:center;
     width:100%;
-    height:auto;
-    padding-top:130px;
+    /* height:80px; */
+    /* padding-top:90px; */
     margin:0 auto;
   }
   
   .logo {
-  margin-top:196px;
-  border:1px solid red; background:url(/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
+  margin-top:200px;
+   background:url(/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
   }
   input {
   width:400px;
@@ -33,7 +33,7 @@
   .footer {
     background:#f2f2f2;
     font-family:arial;
-    font-color:#757575;
+    
     padding:5px;
     bottom:0;
     position:fixed;
@@ -85,7 +85,18 @@
       display: grid;
       grid-template-columns: 50px  50px 50px 50px 50px;
       grid-template-rows: 50px;
-      float: right;
+      float: left;}
       
-    
+    #navbar{
+      
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 15px;
+      grid-template-columns:   50px 50px  50px  50px;
+      grid-template-rows: 50px;
+      
     }
+    
+    #gmail{padding-right: 10px;}
+
+    
